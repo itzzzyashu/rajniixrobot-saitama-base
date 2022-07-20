@@ -5,7 +5,6 @@ import sys
 from sys import argv
 from typing import Optional
 
-
 from RajniiRobot import (
     ALLOW_EXCL,
     CERT_PATH,
