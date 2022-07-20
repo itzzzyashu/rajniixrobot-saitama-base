@@ -388,7 +388,7 @@ def rajni_about_callback(update, context):
  • I can chat with users by using [Itel AI](https://www.kukiapi.xyz/).
  • [Click here](https://youtube.com/playlist?list=PLR1ul39qY-jfgtjUdzTxV2On8O5OWbgTw) to watch tutorials about my basic modules on [Youtube](https://www.youtube.com).
  • *{dispatcher.bot.first_name}’s* reposiratory is public now, anyone can fork.
- Click [TeamSanatanRakshaNetwork/rajniiroboactive](https://github.com/TeamSanatanRakshaNetwork/rajniiroboactive).
+ Click [TeamSanatanRakshaNetwork/rajniixrobot](https://github.com/TeamSanatanRakshaNetwork/rajniixrobot.git).
  - You can come at our support chat to ask about deploy errors and solutions.
  - Warning - Don't remove developers from Credits section, you'll get gban if you did that..
  - Put "This bot is a fork of [TeamSanatanRakshaNetwork/rajniiroboactive.git](https://github.com/TeamSanatanRakshaNetwork/rajniiroboactive.git)" in your bot's start message.
