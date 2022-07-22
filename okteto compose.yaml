@@ -3,43 +3,4 @@ services:
    worker:
       build: .
       environment:
-         - API_Id=${API_ID}
-         - TOKEN= '5160981073:AAHuyu5r55gHit9JIlsj9P0KTsx_vLg6NP4' # + Get it by @botfather on telegram after making a bot.
-         - BOT_NAME= "𝔯𝔞𝔧𝔫𝔦𝔦𝔯𝔬𝔟𝔬𝔱" # + Your bot name that you've chosen while making it by @botfather on telegram.
-         - BOT_ID= 5115748490 # + Add your bot and @MissRose_bot to a private/public group, send "/id @your-bot-username" there and copy the ID given by Rose bot.
-         - BOT_TOKEN= "rajniixrobot" # + Your telgram bot's username without @, get it from telegram.
-         - RAJNII_IMG= "https://telegra.ph/file/0419503cacc5c90950bfe.jpg" # + IMAGE url that you want to display at bot's start menu
-         - INFOPIC= True # + True or False, do you want your bot to send user's first profile pic with User Info by execution of "/info" command?
-         - STRICT_GMUTE= True # + True or False, do you want 'gmuted users' muted in new groups too ?.
-         - STRICT_GBAN= True # + True or False, do you want 'gbanned users' get banned in new groups too?
-         - ALLOW_EXCL= True # + True or False, do you want users can use '!' for commands too.
-         - ALLOW_CHATS= True # + True or False, bot can be added into other groups?
-         - DEL_CMDS= True # + True or False, do you want your bot delete the commands that normal users can't use?
-         - SUPPORT_CHAT= "rajniixsupport" # + Create a public group on telegram, fill your support chat's username here; Make sure to add your bot to this chat as Admin.
-         - UPDATES_LOGS= "rajniixupdates" # + Create a public group on telegram, fill your update channel's username here; Make sure to add your bot to this chat as Admin.
-         - JOIN_LOGGER= "-1001615857456" # + Create a private/public channel on telegram, send anything and forward that message to @MissRose_bot and reply the forwarded message with "/id", copy the channel ID; it's for logging message when someone add your bot to a group.
-         - ERROR_LOGS= "rajniixsupport" # + Create a private/public group on telegram, send anything in it and forward that message to @MissRose_bot and reply the forwarded message with "/id", copy the channel ID.
-         - EVENT_LOGS= "-1001788668346" # + Create a private/public channel on telegram, send anything and forward that message to @MissRose_bot and reply the forwarded message with "/id", copy the channel ID; it's for logging Global Actions.
-         - SPAMWATCH_SUPPORT_CHAT= "SPAMWATCHSUPPORT" # + SpamWatch Support Chat username from telegram.
-         - OWNER_ID= '5365743068' # + Send "/id" to @MissRose_bot on telegram and copy your Telegram id that you get by her.
-         - OWNER_USERNAME= "Itzzzyashu" # + Your telegram username here without @, get it from telegram.
-         - WORKERS=8 # + There's no need to change it.
-         - DB_URL= "postgres://ikdtlpyr:olbf_PzaqSQgY5l8tRh2PClPn6aQfY_D@batyr.db.elephantsql.com/ikdtlpyr" # + postgresql or elephantsql database link.
-         - MONGO_DB= "Rajnii" # + Copy and paste your Mongodb Cluster name here.
-         - MONGO_PORT= 27018 # + Google Mongo db port; copy and paste.
-         - MONGO_DB_URL= "mongodb+srv://Itzzz-ImPuLsIvE:dIkh52OrYH2TwBRS@itzzz-impulsive.15d2y.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" # + Signup/Login on https://www.mongodb.com create cluster and get database uri.
-         - ARQ_API_URL= "https://arq.hamker.in"
-         - API_HASH= "48a53bcfd16b86421169146ce4c28ec3" # + Login https://my.telegram.org with your telegram account, select "Api Development Tools" create an app and copy APP_HASH from there.
-         - OPENWEATHERMAP_ID= "541d497d8ebfb053cd5e65571a9069d7" # + 
-         - REM_BG_API_KEY= "yfqU2VS3n1XjKXhd9qhZifv8" #+ 
-         - CASH_API_KEY= "SRDPVDVLKPZ41Y9O" # + Get it from https://...
-         - TIME_API_KEY= "TBC8SP7S1H6T" # + Get it from https://...
-         - AI_API_KEY= "https://kukiapi.xyz/api/apikey=5365743068-KUKITA8ZOn8gr9/rajnii/@itzzzyashu/message=" # + Ask @kukiaisupport on telegram about it. default at "https://www.kukiapi.xyz/api/message=".
-         - STRING_SESSION= "1BVtsOHkBu2iHTcxaZrd0mtfYlvpzp2QfUXVU3ToHBe2Zij4x-1Dm9Nc6aMfUTqW101oM8hh_Z7NmpUf80VwQLM784myE6_BnUNwwrkDXD2VYFAhgsLxgmcppIe7FAsEvcckTTCw7xIYyXmzXY6eRaFFj__-8i821h-dCkbUE9oTmbCCfSMR97SDVLr11ocCuq4EMRX6ws7d2UrJogVXCsqt-NYfQXrZMzK31qryzxA5p1jB6A9eoXs7loXRkzVPquETwan5RYT1CLT7pEEzqo-mkWylwU9rsNDPKKf20moO-mhZcVkObAa3PHARPmHwVY2JHdnYU0Q6fmuQ3pyOj0ZgVDxtFGoA=" # + Replit run 
-         - ARQ_API_KEY= "UEYZWW-GADXWS-PNIOAH-GMJBQU-ARQ" # + Get it from @ARQRobot on telegram.
-         - SPAMWATCH_API = "7iPTH5GOySCONA5MF4tiA5v9SyUABlcHJJCYYf2_mf7HpwVjn~s7hHNUih7F~SQq" # + Get it from @SpamWatchbot on telegram.
-         - TEMP_DOWNLOAD_DIRECTORY = "./" # + Don't Change it (It can cause many errors if changed).
-         - CERT_PATH = "CERT_PATH" # + 
-         - GOOGLE_CHROME_BIN = "/usr/bin/google-chrome" # + Don't change it.
-         - CHROME_DRIVER = "/usr/bin/chromedriver" # + Don't change it.
-         - PORT = 5000 # + Needed
+         
